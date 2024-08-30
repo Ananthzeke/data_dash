@@ -59,6 +59,7 @@ CREATE TABLE Users (
 ### ODM (Object Data Mapping)
 - **Maps**: Objects to NoSQL documents
 - **Example**: mongoengine for MongoDB
+---
 ```python
 from mongoengine import Document, StringField, connect
 
@@ -92,6 +93,7 @@ print(user.email)  # Output: johndoe@example.com
 ### ORM (Object-Relational Mapping)
 - **Maps**: Objects to SQL tables
 - **Example**: SQLAlchemy for MySQL
+---
 ```python
 from sqlalchemy import Column, Integer, String, create_engine
 from sqlalchemy.ext.declarative import declarative_base
